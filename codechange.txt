@@ -9,3 +9,31 @@
                         onFacesDetected={this.onFacesDetected}
                         onFacesDetectionError={this.onFacesDetectionError}
                     />
+
+
+
+--------------------------------------------------------------
+  onFacesDetected = (faces) => {
+       console.log(faces)
+        this.setState({ faces: faces })
+         console.log(this.state.faces)
+    }
+    
+    --------------------------------------
+    
+    worked with expo 44
+    
+    {
+  "dependencies": {
+    "expo-camera": "~12.1.1",
+    "expo-status-bar": "~1.2.0",
+    "expo-face-detector": "~11.1.2",
+    "expo-permissions": "~13.1.1",
+    "expo-barcode-scanner": "~11.2.1",
+    "react-native-screens": "~3.10.1",
+    "@react-navigation/native": "^5.9.4",
+    "react-native-gesture-handler": "~2.1.0",
+    "@react-navigation/bottom-tabs": "^5.11.9",
+    "react-native-safe-area-context": "3.3.2"
+  }
+}
