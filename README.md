@@ -1,6 +1,28 @@
 # 181
 
 
+
+
+working code
+
+https://snack.expo.dev/@subhra/pro-c181-code-ref
+
+
+show your face to the camera
+
+check the log
+
+
+
+
+
+
+
+
+
+
+
+
 Face FILTER Mobile App
 ————————————
 
